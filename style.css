@@ -24,12 +24,11 @@ body {
 }
 
 #information h1 {
-  display: inline-block;
-  margin: 0 auto 40px;
+  display: block;
+  margin: 80px auto 40px;
   padding-bottom: 10px;
   font-size: 1.25rem;
   font-weight: 700;
-  border-bottom: 4px solid #222;
 }
 
 #information article {
