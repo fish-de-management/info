@@ -27,13 +27,13 @@ body {
   display: block;
   margin: 80px auto 40px;
   padding-bottom: 10px;
-  font-size: 2.5rem;
+  font-size: 60px;
   font-weight: 700;
   text-align:center;
 }
 
 #information article {
-  margin-bottom: 40px;
+  margin: 5%;
   padding: 40px 40px 35px;
   text-align: left;
   border-radius: 20px;
@@ -41,20 +41,20 @@ body {
 }
 
 #information article .text_date {
-  font-size: 0.85rem;
+  font-size: 30px;
 }
 
 #information article h2 {
   margin-bottom: 30px;
   padding-bottom: 12px;
-  font-size: 1.15rem;
+  font-size: 40px;
   line-height: 1.8em;
   border-bottom: 2px solid #d5c800;
 }
 
 #information article .text_content {
   line-height: 2.0em;
-  font-size: 0.85rem;
+  font-size: 26px;
 }
 
 .acd-check{
@@ -66,6 +66,7 @@ body {
     display: block;
     margin-bottom: 1px;
     padding: 10px;
+    font-size:28px;
 }
 .acd-content{
     border: 1px solid #333;
@@ -74,6 +75,7 @@ body {
     padding: 0 10px;
     transition: .5s;
     visibility: hidden;
+    font-size:25px;  
 }
 
 .acd-check:checked + .acd-label + .acd-content{
