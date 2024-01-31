@@ -75,6 +75,10 @@ body {
     transition: .5s;
     visibility: hidden;
 }
+
+.acd-check:checked + .acd-label:after{
+    content: '\f068';
+}
 .acd-check:checked + .acd-label + .acd-content{
     height: 40px;
     opacity: 1;
