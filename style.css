@@ -83,7 +83,7 @@ body {
     visibility: visible;
 }
 
-@media (max-width: 450px){
+@media (max-width: 800px){
   /* information
 ------------------------------ */
 #information {
