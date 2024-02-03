@@ -55,6 +55,8 @@ body {
 #information article h2 span{
 margin-left:20px;
 padding:5px 10px;
+font-size:36px;
+border: 1px solid #d5c800;
 }
 
 #information article .text_content {
