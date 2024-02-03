@@ -57,8 +57,9 @@ margin-left:20px;
 padding:5px 10px;
 font-size:36px;
 font-weight:500;
-border-radius:5px;
-border: 1px solid #d5c800;
+border-radius:10px;
+color:#27acd9;
+border: 1px solid #27acd9;
 }
 
 #information article .text_content {
