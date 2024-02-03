@@ -52,6 +52,11 @@ body {
   border-bottom: 2px solid #d5c800;
 }
 
+#information article h2 span{
+margin-left:20px;
+padding:5px 10px;
+}
+
 #information article .text_content {
   line-height: 2.0em;
   font-size: 26px;
