@@ -19,7 +19,15 @@
           <h2>2/5（月）の入荷情報</h2>
           <p class="text_content">天候やその他の事情により、入荷できないことがございますのであらかじめご了承ください。<br>前日のご予約は22時までで翌日中の発送となります。LINEでメッセージお待ちしています。</p>
           <span>広島直送</span>
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRHuM8AWhkW8v_zQql-Ol_oN9tBVTwrRAzQdJuP4Y-48pC1aUL08S2frdxZkD4D5ffh0i9E2HVPPp9E/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+          <iframe id="sub"　src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRHuM8AWhkW8v_zQql-Ol_oN9tBVTwrRAzQdJuP4Y-48pC1aUL08S2frdxZkD4D5ffh0i9E2HVPPp9E/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" onload="func1()></iframe>
+          <script>
+          const sub = document.getElementById("sub");
+
+          function func1() {
+          sub.style.width = sub.contentWindow.document.body.scrollWidth + "px";
+          sub.style.height = sub.contentWindow.document.body.scrollHeight + "px";
+          }
+          </script>
           <input id="acd-check14" class="acd-check" type="checkbox">
           <label class="acd-label" for="acd-check14">千葉　大羽イワシ　　<i class="fa-solid fa-chevron-down"></i></label>
           <div class="acd-content">
